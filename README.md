@@ -1,4 +1,4 @@
-## Pedra, Papel e Tesoura Online
+# Pedra, Papel e Tesoura Online
 
 ##### Site de Pedra, Papel e Tesoura Online desenvolvido durante as aulas de Desenvolvimento de Aplicações, 24/09/2021.
 
