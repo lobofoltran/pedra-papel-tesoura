@@ -13,7 +13,7 @@ function alteraPlacar() {
    document.getElementById('placar-empates').innerText    = placar.empates;
    document.getElementById('placar-computador').innerText = placar.computador;
    document.getElementById('numero-jogos').innerText      = placar.partidas;
-   document.getElementById('resultadoTexto').innerText = placar.resultado;
+   document.getElementById('resultadoTexto').innerText    = placar.resultado;
 }
 
 // Função para mudar a imagem da tela no monitor do usuário. Basicamente chama (let), cria uma variável com base no valor ID do combo-escolha, que é o Select. Após, cria um if para denominar
