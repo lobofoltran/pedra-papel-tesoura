@@ -29,13 +29,13 @@ function monitoraEscolhaDoUsuario() {
 
     switch (opcEscolhida) {
         case 'pedra':
-            document.getElementById('imgJogador1').src = "/images/pedra.png";
+            document.getElementById('imgJogador1').src = "https://github.com/lobofoltran/da-pedra-papel-tesoura/blob/main/images/pedra.png?raw=true";
         break;
         case 'papel':
-            document.getElementById('imgJogador1').src = "/images/papel.png"; 
+            document.getElementById('imgJogador1').src = "https://github.com/lobofoltran/da-pedra-papel-tesoura/blob/main/images/papel.png?raw=true"; 
         break;
         case 'tesoura':
-            document.getElementById('imgJogador1').src = "/images/tesoura.png";
+            document.getElementById('imgJogador1').src = "https://github.com/lobofoltran/da-pedra-papel-tesoura/blob/main/images/pedra.png?raw=true";
         break;
     }
 
@@ -48,13 +48,13 @@ function sorteiaJogadaComputador() {
 
     switch (numeroSorteado) {
         case 1:
-            document.getElementById('imgComputador').src = "/images/pedra.png";
+            document.getElementById('imgComputador').src = "https://github.com/lobofoltran/da-pedra-papel-tesoura/blob/main/images/pedra.png?raw=true";
             return 'pedra'
         case 2:
-            document.getElementById('imgComputador').src = "/images/papel.png"; 
+            document.getElementById('imgComputador').src = "https://github.com/lobofoltran/da-pedra-papel-tesoura/blob/main/images/papel.png?raw=true"; 
             return 'papel'
         case 3:
-            document.getElementById('imgComputador').src = "/images/tesoura.png";
+            document.getElementById('imgComputador').src = "https://github.com/lobofoltran/da-pedra-papel-tesoura/blob/main/images/pedra.png?raw=true";
             return 'tesoura'
     }
 }
