@@ -8,4 +8,4 @@
 
 </p>
 
-#### Linguas utilizadas: ### HTML, CSS e JS.
+#### Linguas utilizadas: HTML, CSS e JS.
