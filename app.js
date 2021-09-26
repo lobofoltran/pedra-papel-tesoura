@@ -20,13 +20,13 @@ function monitoraEscolhaDoUsuario () {
 
     switch (opcEscolhida) {
         case 'pedra':
-            document.getElementById('imgJogador1').src = "/images/pedra.png";
+            document.getElementById('imgJogador1').src = "da-pedra-papel-tesoura/images/pedra.png";
         break;
         case 'papel':
-            document.getElementById('imgJogador1').src = "/images/papel.png"; 
+            document.getElementById('imgJogador1').src = "da-pedra-papel-tesoura/images/papel.png"; 
         break;
         case 'tesoura':
-            document.getElementById('imgJogador1').src = "/images/tesoura.png";
+            document.getElementById('imgJogador1').src = "da-pedra-papel-tesoura/images/tesoura.png";
         break;
     }
 
@@ -37,13 +37,13 @@ function sorteiaJogadaComputador () {
 
     switch (numeroSorteado) {
         case 1:
-            document.getElementById('imgComputador').src = "/images/pedra.png";
+            document.getElementById('imgComputador').src = "da-pedra-papel-tesoura/images/pedra.png";
             return 'pedra'
         case 2:
-            document.getElementById('imgComputador').src = "/images/papel.png"; 
+            document.getElementById('imgComputador').src = "da-pedra-papel-tesoura/images/papel.png"; 
             return 'papel'
         case 3:
-            document.getElementById('imgComputador').src = "/images/tesoura.png";
+            document.getElementById('imgComputador').src = "da-pedra-papel-tesoura/images/tesoura.png";
             return 'tesoura'
     }
 }
