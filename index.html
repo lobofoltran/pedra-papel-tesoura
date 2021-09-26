@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedra Papel Tesoura Online</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <div class="divTela">
+        <div class="divJogo">
+            <h3 class="titulo">Você</h3>
+            <div>
+                <select name="" id="combo-escolha" onchange="monitoraEscolhaDoUsuario()">
+                    <option value="selecione" selected disabled hidden>Selecione</option>
+                    <option value="pedra">Pedra</option>
+                    <option value="papel">Papel</option>
+                    <option value="tesoura">Tesoura</option>
+                </select> 
+                <br> 
+                <img id="imgJogador1">  
+            </div>
+        </div>
+        <div class="divJogo">
+            <h3 class="titulo">Placar</h3>
+
+            <div class="placar-div">
+                <table id="tabela">
+                    <thead>
+                        <th>Você</th>
+                        <th>X</th>
+                        <th>Computador</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <span id="placar-jogador"></span>
+                            </td>
+                            <td>|</td>
+                            <td>
+                                <span id="placar-computador"></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">Partidas Jogadas</td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                <span id="numero-jogos"></span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <button class="botao-jogo" onclick="jogar()">Jogar</button>
+                <button class="botao-jogo" onclick="reinicio()">Reiniciar</button>
+            </div>
+
+        </div>
+        <div class="divJogo">
+            <h3 class="titulo">Computador</h3>
+
+            <img id="imgComputador">
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

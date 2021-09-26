@@ -1,0 +1,63 @@
+body {
+    background-color: rgba(78, 0, 0, 0.959);
+}
+
+.divTela {
+    margin: 5%;
+    margin-top: 2%;
+    background-color: #8b1e1e;
+    border: 2px rgb(255, 255, 255) solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#tabela {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#tabela td, #tabela th {
+    border: 3px solid rgb(255, 255, 255);
+    padding: 8px;
+    text-align: center;
+    width: 80px;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    font-size: 20px;
+}
+
+.botao-jogo {
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    padding: 0.1em 0.6em;
+    font-size: 20px;
+    background-color: rgb(87, 0, 0);
+    margin-top: 5px;
+    margin-bottom: 8px;
+}
+
+.botao-jogo:hover {
+    background-color: #df4e4e;
+}
+
+.botao-jogo {
+    cursor: pointer;
+}
+
+.titulo {
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    font-size: 26px;
+    text-align: center;
+}
+
+#combo-escolha {
+    color: rgb(255, 255, 255);
+    background-color: black;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    font-size: 19px;
+    padding: 3px;
+}
