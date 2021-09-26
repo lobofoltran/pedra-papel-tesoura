@@ -5,6 +5,7 @@ body {
 .divTela {
     margin: 5%;
     margin-top: 2%;
+    margin-bottom: 0%;
     background-color: #8b1e1e;
     border: 2px rgb(255, 255, 255) solid;
     display: flex;
@@ -47,6 +48,14 @@ body {
     cursor: pointer;
 }
 
+#botao-jogar {
+    margin-top: 20px;
+}
+
+#botao-reiniciar {
+    margin-bottom: 20px;
+}
+
 .titulo {
     color: rgb(255, 255, 255);
     text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
@@ -56,8 +65,24 @@ body {
 
 #combo-escolha {
     color: rgb(255, 255, 255);
-    background-color: black;
+    background-color: rgb(87, 25, 25);
     text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
     font-size: 19px;
     padding: 3px;
+}
+
+.resultado {
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    font-size: 26px;
+    text-align: center;
+    padding: 3px;
+    margin: 5%;
+    margin-top: 2%;
+    background-color: #8b1e1e;
+    border: 2px rgb(255, 255, 255) solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
 }

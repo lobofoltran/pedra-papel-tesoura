@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pedra Papel Tesoura Online</title>
+    <link rel="icon" href="images/favicon.ico"/>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -16,7 +17,7 @@
             <h3 class="titulo">Você</h3>
             <div>
                 <select name="" id="combo-escolha" onchange="monitoraEscolhaDoUsuario()">
-                    <option value="selecione" selected disabled hidden>Selecione</option>
+                    <option value="" selected disabled>Selecione</option>
                     <option value="pedra">Pedra</option>
                     <option value="papel">Papel</option>
                     <option value="tesoura">Tesoura</option>
@@ -27,12 +28,11 @@
         </div>
         <div class="divJogo">
             <h3 class="titulo">Placar</h3>
-
             <div class="placar-div">
                 <table id="tabela">
                     <thead>
                         <th>Você</th>
-                        <th>X</th>
+                        <th>Empates</th>
                         <th>Computador</th>
                     </thead>
                     <tbody>
@@ -40,7 +40,9 @@
                             <td>
                                 <span id="placar-jogador"></span>
                             </td>
-                            <td>|</td>
+                            <td>
+                                <span id="placar-empates"></span>
+                            </td>
                             <td>
                                 <span id="placar-computador"></span>
                             </td>
@@ -55,8 +57,8 @@
                         </tr>
                     </tbody>
                 </table>
-                <button class="botao-jogo" onclick="jogar()">Jogar</button>
-                <button class="botao-jogo" onclick="reinicio()">Reiniciar</button>
+                <button id="botao-jogar" class="botao-jogo" onclick="jogar()">Jogar</button>
+                <button id="botao-reiniciar" class="botao-jogo" onclick="reinicio()">Reiniciar</button>
             </div>
 
         </div>
@@ -66,6 +68,8 @@
             <img id="imgComputador">
         </div>
     </div>
+
+    <span class="resultado" id="resultadoTexto"></span>
 
     <script src="app.js"></script>
 </body>
